@@ -12,26 +12,31 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:run": "vitest run",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "lint": "oxlint ."
   },
   "devDependencies": {
-    "@patternfly/patternfly": "^6.0.0",
-    "@patternfly/react-core": "^6.0.0",
-    "@patternfly/react-icons": "^6.0.0",
-    "@patternfly/react-table": "^6.0.0",
+    "@patternfly/patternfly": "6.7.0",
+    "@patternfly/react-core": "6.7.0",
+    "@patternfly/react-icons": "6.7.0",
+    "@patternfly/react-table": "6.7.0",
     "@playwright/test": "^1.56.1",
-    "@types/react": "^18.3.0",
-    "@types/react-dom": "^18.3.0",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
     "@types/react-window": "^1.8.8",
-    "@vitest/ui": "^4.0.7",
+    "@vitest/ui": "5.0.5",
     "dotenv": "^17.2.3",
-    "esbuild": "^0.24.0",
-    "react": "^18.3.0",
-    "react-dom": "^18.3.0",
-    "typescript": "^5.7.0",
-    "vitest": "^4.0.7"
+    "esbuild": "0.28.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "typescript": "6.0.3",
+    "vitest": "5.0.5",
+    "oxlint": "1.90.0"
   },
   "dependencies": {
     "react-window": "^2.2.2"
+  },
+  "engines": {
+    "node": ">=24"
   }
 }
